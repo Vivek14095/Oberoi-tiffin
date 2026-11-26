@@ -1,0 +1,14 @@
+{
+  "name": "oberoi-tiffin",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-11-26",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "oberoi-tiffin-db",
+      "database_id": "6d958a54-6a9f-4822-97e9-510fb9130c77",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}

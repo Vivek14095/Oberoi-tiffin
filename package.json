@@ -1,0 +1,8 @@
+{
+  "name": "oberoi-tiffin",
+  "private": true,
+  "scripts": {
+    "build": "node build-worker.mjs",
+    "deploy": "npx --yes wrangler@4 d1 migrations apply DB --remote && npx --yes wrangler@4 deploy"
+  }
+}
