@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Oberoi Tiffin delivers home-style breakfast and dinner across Kharar, Punjab."><title>Oberoi Tiffin | Kharar Tiffin Service</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body>
+<header><div class="wrap bar"><a class="brand" href="#"><span class="wordmark">Oberoi <b>Tiffin<i class="chef-cap" aria-hidden="true"></i></b><small>KHARAR, PUNJAB</small></span></a><nav aria-label="Main navigation"><a href="#menu">Menu</a><a href="#plans">Meal plans</a><button class="plain" data-open="track">Track order</button></nav><div class="header-actions"><button class="button dark" id="bag-button" data-open="cart">Bag <span id="count">0</span></button></div></div></header>
+<main class="wrap">
+<section class="hero" aria-labelledby="hero-title"><div class="hero-text"><span class="location">● &nbsp; TIFFIN DELIVERY IN KHARAR</span><h1 id="hero-title">Ghar jaisa.<br><em>Har din.</em></h1><p>Home-style breakfast and dinner, delivered free in Kharar. For hostel rooms, PGs, and anyone missing a meal from home.</p><div class="actions"><a class="button gold" href="#menu">Explore menu</a><a class="button outline" href="#plans">Monthly plans</a></div></div><div class="hero-photo"><img src="assets/dinner.jpg" alt="Punjabi thali with chapati, rice, dal, sabji, salad and raita"><span>BREAKFAST ₹60 · DINNER ₹70</span></div></section>
+<section id="menu"><div class="section-title"><div><h2>On the menu</h2><p>Pick a day to see what’s cooking.</p></div><button class="button light" id="today">Today</button></div><div class="days" role="group" aria-label="Menu day" id="days"></div>
+<p id="menu-order-note" class="menu-order-note" aria-live="polite"></p><div class="cards" id="meals"></div></section>
+<section id="plans" class="plans" aria-labelledby="plans-title">
+<div class="plan-intro"><h2 id="plans-title">Monthly meal plans</h2><p>Choose a plan and contact the kitchen to confirm your start date and delivery slots. Free delivery across Kharar.</p></div>
+<div class="plan-grid">
+<article><h3>Breakfast</h3><p class="plan-rate">₹1,800 <small>/ month</small></p><button class="button light" data-plan="breakfast">Choose breakfast</button></article>
+<article><h3>Dinner</h3><p class="plan-rate">₹2,100 <small>/ month</small></p><button class="button light" data-plan="dinner">Choose dinner</button></article>
+<article><h3>Breakfast + Dinner</h3><p class="plan-rate">₹3,900 <small>/ month</small></p><button class="button gold" data-plan="combo">Choose both meals</button></article>
+</div></section>
+<section id="why" aria-labelledby="why-title">
+<div class="why-intro"><div><h2 id="why-title">Why choose us?</h2><p>From a hot parantha in the morning to dal and sabji at night, get the meals you’d look forward to at home.</p></div><span aria-hidden="true">👨‍🍳</span></div>
+<div class="reasons">
+<article><img src="assets/breakfast-3.jpg" alt="" loading="lazy"><h3>Home-style Punjabi cooking</h3><p>Start with stuffed paranthas and come back to familiar dinners like matar paneer and dal.</p></article>
+<article><img src="assets/dinner-4.jpg" alt="" loading="lazy"><h3>Something different every day</h3><p>Browse the whole week before you order. Breakfast and dinner each have their own rotating menu.</p></article>
+<article><img src="assets/dinner.jpg" alt="" loading="lazy"><h3>Dinner your way</h3><p>Go with rice and three chapatis or make it five chapatis. Salad and raita come with dinner.</p></article>
+<article><img src="assets/dinner-1.jpg" alt="" loading="lazy"><h3>Kheer twice a week</h3><p>Tuesday and Saturday dinners come with kheer for a little something sweet.</p></article>
+<article><img src="assets/breakfast-5.jpg" alt="" loading="lazy"><h3>Pick a meal or plan ahead</h3><p>Breakfast is ₹60 and dinner is ₹70. Monthly plans are available for either meal or both.</p></article>
+<article><img src="assets/dinner-6.jpg" alt="" loading="lazy"><h3>Free delivery in Kharar</h3><p>Have your tiffin delivered to your hostel, PG or home. Add a landmark or location pin to help the rider find you.</p></article>
+</div></section>
+<section id="help" aria-labelledby="help-title"><div class="section-title"><h2 id="help-title">Common questions</h2></div><div class="faq">
+<details><summary>How do I place an order?</summary><p>Choose your meals, review your bag and enter your delivery details here. Send the prepared request through WhatsApp.</p></details>
+<details><summary>What comes with dinner?</summary><p>Dinner comes with salad and raita, plus rice with three chapatis or five chapatis. The weekly menu shows which days include kheer.</p></details>
+<details><summary>How much is a monthly plan?</summary><p>Breakfast is ₹1,800, dinner is ₹2,100, and breakfast plus dinner is ₹3,900 per month. Choose a <a href="#plans">meal plan</a> to ask about starting.</p></details>
+<details><summary>Where do you deliver?</summary><p>Delivery is free across Kharar. The shop is on Civil Hospital Road, near Mehta Hospital, Sector 12, Kharar, Punjab.</p></details>
+<details><summary>How can I check my order?</summary><p>Open Track order to find your tracking link on this device. Live updates start when your rider shares their location.</p></details>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="footer-grid">
+<div><strong class="wordmark footer-brand">Oberoi <b>Tiffin<i class="chef-cap" aria-hidden="true"></i></b></strong><p>Home-style breakfast and dinner, delivered in Kharar, Punjab.</p></div>
+<div><h3>Explore</h3><a href="#menu">Weekly menu</a><a href="#plans">Meal plans</a><a href="#why">Why choose us?</a></div>
+<div><h3>Help with orders</h3><button class="plain" data-open="track">Track order</button><a href="#help">Common questions</a><a href="https://www.instagram.com/oberoitiffen/" target="_blank" rel="noopener">@oberoitiffen</a><a data-instagram target="_blank" rel="noopener">Send an Instagram DM</a></div>
+<div><h3>Contact the kitchen</h3><button class="plain" id="whatsapp-query">Message on WhatsApp</button><a data-call>Call +91 99149 11605</a><address>Civil Hospital Road, near Mehta Hospital, Sector 12, Kharar, Punjab</address><a href="https://www.google.com/maps/search/?api=1&amp;query=Civil+Hospital+Road+near+Mehta+Hospital+Sector+12+Kharar+Punjab" target="_blank" rel="noopener">Find the shop on Maps</a></div>
+</div><div class="footer-bottom"><span>© Oberoi Tiffin</span><span>Breakfast · Dinner · Monthly tiffin plans</span></div>
+</div></footer>
+<dialog id="panel" aria-labelledby="panel-title"><div class="dialog-head"><h2 id="panel-title"></h2><button type="button" class="close plain" aria-label="Close dialog">×</button></div><div id="panel-toast" role="status" aria-live="polite"></div><div id="panel-body"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>
